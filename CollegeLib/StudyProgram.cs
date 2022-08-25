@@ -6,6 +6,12 @@ public class StudyProgram
     public string Name { get; set; }
     public List<Course> CourseList { get; set; }
 
+    public StudyProgram(string name)
+    {
+        Name = name;
+        CourseList = new List<Course>();
+    }
+    
     public StudyProgram(string name, List<Course> courseList)
     {
         Name = name;
@@ -18,9 +24,5 @@ public class StudyProgram
         CourseList = new List<Course>(courseArray);
     }
     
-    public StudyProgram(string name)
-    {
-        Name = name;
-        CourseList = new List<Course>();
-    }
+
 }
