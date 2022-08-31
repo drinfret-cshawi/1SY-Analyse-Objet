@@ -1,6 +1,6 @@
 ﻿using ShapesLib;
 using SixLabors.ImageSharp;
-// using Point = ShapesLib.Point;
+using Point = ShapesLib.Point;
 
 namespace ShapesApp;
 
@@ -14,23 +14,25 @@ class Program
 
         Canvas canvas = new Canvas(500, 500, Color.White);
 
-        // Point p1 = new Point(25, 25);
-        // List<Shape> shapes = new List<Shape>();
-        // shapes.Add(new Line(p1, new Point(200, 300), Color.Lime));
-        // shapes.Add(new HLine(new Point(100, 150), 200, Color.Fuchsia));
-        // shapes.Add(new VLine(new Point(200, 250), 100, Color.Blue));
-        //
-        // shapes.Add(new Polygon(Color.Aqua,
-        //     new Point(50, 50),
-        //     new Point(150, 75),
-        //     new Point(125, 175),
-        //     new Point(444, 266)
-        // ));
-        //
-        // foreach (Shape shape in shapes)
-        // {
-        //     shape.Draw(canvas);
-        // }
+        Point p1 = new Point(25, 25);
+        List<Shape> shapes = new List<Shape>();
+        shapes.Add(new Line(p1, new Point(200, 300), Color.Lime));
+        shapes.Add(new HLine(new Point(100, 150), 200, Color.Fuchsia));
+        shapes.Add(new VLine(new Point(200, 250), 100, Color.Blue));
+        
+        shapes.Add(new Polygon(Color.Aqua,
+            new Point(50, 50),
+            new Point(150, 75),
+            new Point(125, 175),
+            new Point(444, 266)
+        ));
+        
+        shapes.Add(new Triangle(new Point(100, 100), new Point(150, 150), new Point(125, 250), Color.Gainsboro));
+        
+        foreach (Shape shape in shapes)
+        {
+            shape.Draw(canvas);
+        }
 
         // List<Polygon> polygons = new List<Polygon>();
         // polygons.Add(new Polygon());
