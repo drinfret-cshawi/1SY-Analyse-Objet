@@ -2,20 +2,20 @@ using SixLabors.ImageSharp;
 
 namespace ShapesLib;
 
-public class Circle
+public class Circle : Shape
 {
-    public SixLabors.ImageSharp.Point Centre { get; set; }
+    public Point Centre { get; set; }
     public int Radius { get; set; }
     public Color DrawColor { get; set; }
 
-    public Circle(SixLabors.ImageSharp.Point centre, int radius, Color drawColor)
+    public Circle(Point centre, int radius, Color drawColor)
     {
         Centre = centre;
         Radius = radius;
         DrawColor = drawColor;
     }
 
-    public void Draw(Canvas canvas)
+    public override void Draw(Canvas canvas)
     {
         int cos45 = Convert.ToInt32(Math.Round(Radius * Math.Cos(Math.PI/4), MidpointRounding.AwayFromZero));
         

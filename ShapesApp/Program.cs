@@ -18,7 +18,7 @@ class Program
         List<Shape> shapes = new List<Shape>();
         shapes.Add(new Line(p1, new Point(200, 300), Color.Lime));
         shapes.Add(new HLine(new Point(100, 150), 200, Color.Fuchsia));
-        shapes.Add(new VLine(new Point(200, 250), 100, Color.Blue));
+        shapes.Add(new VLine(new Point(200, 250), 100, Color.Chartreuse));
         
         shapes.Add(new Polygon(Color.Aqua,
             new Point(50, 50),
@@ -28,7 +28,7 @@ class Program
         ));
         
         shapes.Add(new Triangle(new Point(100, 100), new Point(150, 150), new Point(125, 250), Color.Gainsboro));
-        
+        shapes.Add(new Circle(new Point(200, 200), 150, Color.DarkRed));
         foreach (Shape shape in shapes)
         {
             shape.Draw(canvas);
