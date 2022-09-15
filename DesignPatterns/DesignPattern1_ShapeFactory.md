@@ -70,6 +70,8 @@ AsciiDoc <. AsciiApp
 @enduml
 ````
 
+-------------------------------------------------------------------------------
+
 ## Fabrique Abstraite (*Abstract Factory*, *Kit*)
 
 ### Intention
