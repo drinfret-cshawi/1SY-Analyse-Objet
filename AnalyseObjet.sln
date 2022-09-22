@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesApp", "ShapesApp\Shap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeApp", "CollegeApp\CollegeApp.csproj", "{43DD8784-9085-459F-B9CE-A7D580283F48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorLib", "IteratorLib\IteratorLib.csproj", "{C31AE0C1-FD49-4F8A-B302-B757AA421333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorApp", "IteratorApp\IteratorApp.csproj", "{23436410-ED8D-46AC-82BB-AEC5EE583C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{43DD8784-9085-459F-B9CE-A7D580283F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DD8784-9085-459F-B9CE-A7D580283F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DD8784-9085-459F-B9CE-A7D580283F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31AE0C1-FD49-4F8A-B302-B757AA421333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31AE0C1-FD49-4F8A-B302-B757AA421333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31AE0C1-FD49-4F8A-B302-B757AA421333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31AE0C1-FD49-4F8A-B302-B757AA421333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23436410-ED8D-46AC-82BB-AEC5EE583C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23436410-ED8D-46AC-82BB-AEC5EE583C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23436410-ED8D-46AC-82BB-AEC5EE583C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23436410-ED8D-46AC-82BB-AEC5EE583C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

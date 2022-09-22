@@ -214,7 +214,7 @@ diminuer les resources utilisées par l'application.
 
 ### Intention
 
-Offre un substitut ou une space réservé pour un autre objet pour contrôler son
+Offre un substitut ou un espace réservé pour un autre objet pour contrôler son
 accès.
 
 ### Mise en contexte

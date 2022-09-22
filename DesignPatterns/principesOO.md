@@ -1,7 +1,9 @@
 # Principes OO
 
 ## SOLID
-[https://en.wikipedia.org/wiki/SOLID](https://en.wikipedia.org/wiki/SOLID) [https://fr.wikipedia.org/wiki/SOLID_(informatique)](https://fr.wikipedia.org/wiki/SOLID_(informatique))
+[https://en.wikipedia.org/wiki/SOLID](https://en.wikipedia.org/wiki/SOLID)
+
+[https://fr.wikipedia.org/wiki/SOLID_(informatique)](https://fr.wikipedia.org/wiki/SOLID_(informatique))
 
 ### Responsabilité unique (Single responsibility principle SRP)
 Une classe, une fonction ou une méthode doit avoir une et une seule responsabilité
