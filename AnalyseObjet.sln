@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorApp", "IteratorApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{A5A0AE96-45FB-4551-A53B-BB42BE45E654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeDataLib", "CollegeDataLib\CollegeDataLib.csproj", "{A04BFD7D-49F2-4303-B7C2-4CDA86548798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeLibDataTest", "CollegeLibDataTest\CollegeLibDataTest.csproj", "{7D2E48CD-53DF-4CEF-A0F6-4F6D9937611D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2E48CD-53DF-4CEF-A0F6-4F6D9937611D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2E48CD-53DF-4CEF-A0F6-4F6D9937611D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2E48CD-53DF-4CEF-A0F6-4F6D9937611D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2E48CD-53DF-4CEF-A0F6-4F6D9937611D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

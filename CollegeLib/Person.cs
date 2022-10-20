@@ -1,11 +1,11 @@
 ﻿namespace CollegeLib;
 
-public class Person
+public class Person : IComparable<Person>
 {
     public static int NextId { get; set; } = 1;
 
     private string _name;
-    public int Id { get; }
+    public int Id { get; set;  }
     public string Name
     {
         get => _name;
@@ -74,5 +74,12 @@ public class Person
     public override string ToString()
     {
         return $"Person({Id}, {Name}, {Dob})";
+    }
+
+    public int CompareTo(Person? other)
+    {
+        if (ReferenceEquals(this, other)) return 0;
+        if (ReferenceEquals(null, other)) return 1;
+        return Id.CompareTo(other.Id);
     }
 }
