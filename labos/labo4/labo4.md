@@ -44,4 +44,4 @@ solution dans un dépôt Git privé sur GitHub, et partagez-le seulement avec
 l'utilisateur `drinfret-cshawi` . Votre code devrait être dans la branche
 principale du dépôt Git.
 
-**Date de remise** : 3 novembre, avant minuit
+**Date de remise** : 10 novembre, avant minuit
