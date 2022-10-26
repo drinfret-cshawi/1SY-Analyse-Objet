@@ -13,10 +13,9 @@ Development*).
 Complétez les projets `CollegeLib`, `CollegeDataLib` et `CollegeLibDataTest`, en
 se basant sur le code déjà présent et les informations données plus bas.
 
-1. Modifiez les classes `StudyProgram`, `Course` et `CourseOffering` de la même
+1. Modifiez les classes `Course` et `CourseOffering` de la même
    façon que la classe `Person`. Elle doivent implémenter
    l'interface `IComparable<>` et la méthode `CompareTo`.
-    - `StudyProgram` : comparer le nom des programmes
     - `Course` : comparer le code des cours
     - `CourseOffering` : comparer l'année, suivi de la session et ensuite du
       code de cours.
@@ -29,7 +28,7 @@ se basant sur le code déjà présent et les informations données plus bas.
     - `Course` : trier selon l'ordre par défaut
     - `Course` : trier par nom
     - `CourseOffering` : trier selon l'ordre par défaut
-3. Créez des *mocks* pour `StudyProgram`, `Course` et `CourseOffering` semblable
+3. Créez des *mocks* pour `Course` et `CourseOffering`, semblables
    au mock de `Person`.
 4. Testez vos *mocks* à la manière du *mock* de `Person`. Créez des classes de
    tests différentes pour chaque mock.
